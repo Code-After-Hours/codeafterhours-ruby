@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+    <link rel="shortcut icon" type="text/css" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="author" content="Daniel Del Río">
+
+    <title>Code After Hours - Bayamón</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" id="logoText">
+                    <h1 style="text-align: center; color: #fff;">High Schools in Bayamon</h1>
+					<div id="map" style="height: 500px; width: 1000px; display: block; margin-left: auto; margin-right: auto;" class="leaflet-container leaflet-fade-anim"></div>
+					<br/>
+					<a href="/"><button class="btn btn-lg btn-success">Go back</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script type="text/javascript">
+        var map = L.map('map').setView([18.2, -66.4], 9);
+        var Ongay = L.marker([18.375905, -66.14432], 17).addTo(map);
+
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        Ongay.bindPopup("<b style='color: #000;'>Escuela Tomás C. Ongay</b>");
+
+    </script>
+</body>
+</html>
