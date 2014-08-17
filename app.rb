@@ -2,6 +2,7 @@ require 'sinatra'
 require 'pony'
 
 set :public_folder, File.dirname(__FILE__) + '/public'
+set :bayamon_folder, File.dirname(__FILE__) + '/public/bayamon'
 
 get '/' do
 	#Main route
