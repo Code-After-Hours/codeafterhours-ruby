@@ -53,6 +53,11 @@ section.intro p {
     margin: 0 auto;
 }
 
+.img-logo-resize {
+    height: 425px;
+    width: 425px;
+}
+
 .navbar-default {
   max-height: 80px;
 }
