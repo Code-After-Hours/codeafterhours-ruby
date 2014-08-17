@@ -11,13 +11,14 @@ p.small {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
+a {
     outline: 1;
     color: #fff;
+}
+
+/* Mini hack for footer*/
+.col-lg-6-footer-below {
+
 }
 
 h1,
@@ -42,6 +43,10 @@ section.about h2, p {
 
 section.intro p {
     color: #8E8E8E;
+}
+
+section.contact {
+    padding-bottom: 800px;
 }
 
 .centro {
