@@ -170,6 +170,10 @@ section {
     padding: 100px 0;
 }
 
+a:hover {
+    color: #ccc;
+}
+
 section h2 {
     margin: 0;
     font-size: 3em;
@@ -455,4 +459,20 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+@media (max-device-width : 767px) {
+    .img-logo-resize{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .align-xs-center{
+        text-align: center;
+    }
 }
