@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-lg-12" id="logoText">
                     <h1 style="text-align: center; color: #fff;">High Schools in San Juan</h1>
-					<div id="map" style="height: 500px; width: 1000px; display: block; margin-left: auto; margin-right: auto;" class="leaflet-container leaflet-fade-anim"></div>
+					<div id="map" style="height: 500px; width: 100%; display: block; margin-left: auto; margin-right: auto;" class="leaflet-container leaflet-fade-anim"></div>
 					<br/>
 					<a href="/"><button class="btn btn-lg btn-success">Go back</button></a>
                 </div>
@@ -42,8 +42,8 @@
 
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <script type="text/javascript">
-        var map = L.map('map').setView([18.443786, -66.0978236], 13);
-        var Ugardens = L.marker([18.4054375, -66.065833], 17).addTo(map);
+        var map = L.map('map').setView([18.403168, -66.0637495], 14);
+        var Ugardens = L.marker([18.403168, -66.0637495], 16).addTo(map);
 
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
