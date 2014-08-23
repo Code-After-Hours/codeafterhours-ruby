@@ -467,6 +467,10 @@ html {
     overflow-x: hidden;
 }
 
+.padding-map-page.container{
+    padding: 130px 0px 0px;
+}
+
 @media (max-device-width : 767px) {
     .img-logo-resize{
         width: 300px;
