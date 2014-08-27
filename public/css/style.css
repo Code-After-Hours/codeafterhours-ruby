@@ -174,7 +174,6 @@ a:hover {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
 }
 
 section.success {
@@ -487,6 +486,12 @@ html {
     }
     .no-padding-modal.modal-content{
         padding: 0px;
+    }
+    .location-link{
+        font-size: 25px;
+    }
+    .margin-bottom{
+        margin-bottom: 25px;
     }
 }
 @media (min-device-width :768px){
