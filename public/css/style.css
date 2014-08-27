@@ -493,6 +493,9 @@ html {
     .margin-bottom{
         margin-bottom: 25px;
     }
+    .button-xs-bottom-margin{
+        margin-bottom: 10px;
+    }
 }
 @media (min-device-width :768px){
     .buton-margin-right{
