@@ -246,6 +246,9 @@ section.success {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+    .margin-modal-button-sm{
+        margin-right: 35px;
+    }
 }
 
 .btn-outline {
